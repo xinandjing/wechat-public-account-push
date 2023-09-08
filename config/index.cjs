@@ -46,7 +46,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2023-04-09' },
       ],
-  courseSchedule: {
+  courseSchedule: [
         courses: [
           // 单周课表
           // 从星期一到星期日（星期六和星期日的课表数组可不填写）
@@ -103,7 +103,7 @@ const USER_CONFIG = {
         }
       ],
       ],
-    },
+    ],
   ],
 
 
