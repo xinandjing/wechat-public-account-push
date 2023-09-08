@@ -46,8 +46,14 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2023-04-09' },
       ],
-      courseSchedule: [
+  courseSchedule: {
         // 单双周的基准
+        benchmark: {
+          // 这里设置一个日期，用来作为判断课表是否单双周的依据
+          date: '2022-09-23',
+          // 该日期是否为单周
+          isOdd: true
+        },
         // 课表
         courses: [
           // 单周课表
@@ -91,9 +97,19 @@ const USER_CONFIG = {
               '08:00-09:35 高等数学',
               '09:50-11:25 高等物理'
             ]
+          ],
+          // 双周课表
+          even: [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
           ]
-         ]
-        ]
+        }
+      ],
       ],
     },
   ],
