@@ -33,13 +33,13 @@ const TEMPLATE_CONFIG = [
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
+       课表：
+        1.{{wx_course_schedule_0.DATA}} 
+        2.{{wx_course_schedule_1.DATA}} 
+        3.{{wx_course_schedule_2.DATA}} 
+        4.{{wx_course_schedule_3.DATA}} 
+        5.{{wx_course_schedule_4.DATA}}
     `
-    课表：
-      1.{{wx_course_schedule_0.DATA}} 
-      2.{{wx_course_schedule_1.DATA}} 
-      3.{{wx_course_schedule_2.DATA}} 
-      4.{{wx_course_schedule_3.DATA}} 
-      5.{{wx_course_schedule_4.DATA}}
   },
   {
     id: '0002',
